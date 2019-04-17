@@ -1,0 +1,280 @@
+<html class="birthday-page" lang="en"><head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>XXV Birthday</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="The best is yet to come">
+<style type="text/css">@import url(https://fonts.googleapis.com/css?family=Vibur);</style><style type="text/css">@import url(https://fonts.googleapis.com/css?family=Neucha);</style><style type="text/css">@import url(https://fonts.googleapis.com/css?family=Unica+One);</style><style type="text/css">
+@-webkit-keyframes blink {
+  78% {
+    color: inherit;
+    text-shadow: inherit; }
+  79% {
+    color: #333; }
+  80% {
+    text-shadow: none; }
+  81% {
+    color: inherit;
+    text-shadow: inherit; }
+  82% {
+    color: #333;
+    text-shadow: none; }
+  83% {
+    color: inherit;
+    text-shadow: inherit; }
+  92% {
+    color: #333;
+    text-shadow: none; }
+  92.5% {
+    color: inherit;
+    text-shadow: inherit; } }
+@keyframes blink {
+  78% {
+    color: inherit;
+    text-shadow: inherit; }
+  79% {
+    color: #333; }
+  80% {
+    text-shadow: none; }
+  81% {
+    color: inherit;
+    text-shadow: inherit; }
+  82% {
+    color: #333;
+    text-shadow: none; }
+  83% {
+    color: inherit;
+    text-shadow: inherit; }
+  92% {
+    color: #333;
+    text-shadow: none; }
+  92.5% {
+    color: inherit;
+    text-shadow: inherit; } }
+
+body.story-page {
+  padding-top: 50px;
+  font-family: "Source Sans Pro", sans-serif; }
+  @media (min-width: 600px) {
+    body.story-page {
+      padding-top: 66px;
+      background-color: #fafafa; } }
+  @media (min-width: 1200px) {
+    body.story-page {
+      max-width: 1200px;
+      margin: 0 auto; } }
+  body.story-page .header {
+    font-family: 'Poiret One';
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0px;
+    z-index: 6;
+    height: 50px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 0;
+    align-items: center;
+    background-color: #fafafa; }
+    @media (min-width: 600px) {
+      body.story-page .header {
+        background-color: #ffffff; } }
+    body.story-page .header p {
+      font-size: 24px; }
+  body.story-page .story-cards-container {
+    /*  @include for-tablet-portrait-up{
+            @include grid-create(3, $size-s);;
+        } */ }
+    @media (min-width: 600px) {
+      body.story-page .story-cards-container {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-gap: 12px; } }
+  body.story-page .story-card {
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: #ffffff;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-gap: 8px; }
+    @media (min-width: 600px) {
+      body.story-page .story-card {
+        margin-bottom: 0;
+        padding: 12px;
+        display: grid;
+        grid-template-columns: repeat(10, 1fr);
+        grid-gap: 12px;
+        align-items: center;
+        border: 1px solid #e1e1e1;
+        grid-column-start: 2;
+        grid-column-end: 6; } }
+    body.story-page .story-card__title {
+      grid-column-start: 2;
+      grid-column-end: 10;
+      text-align: center; }
+    body.story-page .story-card__img {
+      grid-column-start: 1;
+      grid-column-end: 11;
+      width: calc(100% + 16px);
+      margin: 0 -8px; }
+      @media (min-width: 600px) {
+        body.story-page .story-card__img {
+          width: calc(100% + 36px);
+          margin: 0 -18px;
+          border-radius: 1%; } }
+    body.story-page .story-card__preview {
+      grid-column-start: 2;
+      grid-column-end: 10; }
+  body.story-page svg-icon {
+    display: inline-grid; }
+
+.birthday-page {
+  background: black; }
+  .birthday-page body {
+    background-image: linear-gradient(to bottom, transparent, black), url(https://res.cloudinary.com/edwardac94/image/upload/v1/birthday/black-brick-wall.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; }
+  .birthday-page .section--XXV {
+    padding: 75px 50px;
+    height: 55%; }
+    @media (min-width: 600px) {
+      .birthday-page .section--XXV {
+        height: 35%; } }
+    @media (min-width: 900px) {
+      .birthday-page .section--XXV {
+        height: 55%; } }
+    .birthday-page .section--XXV .title {
+      font-size: 8rem;
+      margin: 0 0 50px 0; }
+      .birthday-page .section--XXV .title b {
+        font-family: "Vibur"; }
+      @media (min-width: 600px) {
+        .birthday-page .section--XXV .title {
+          font-size: 9rem; } }
+    .birthday-page .section--XXV .content {
+      font-size: 2rem; }
+      .birthday-page .section--XXV .content b {
+        font-family: "Neucha"; }
+        .birthday-page .section--XXV .content b span {
+          -webkit-animation: blink linear infinite 3s;
+                  animation: blink linear infinite 3s; }
+  .birthday-page .section--invitation {
+    padding: 0 10%;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 100px; }
+    @media (min-width: 600px) {
+      .birthday-page .section--invitation {
+        padding: 0 20%; } }
+    @media (min-width: 900px) {
+      .birthday-page .section--invitation {
+        padding: 0 30%; } }
+    .birthday-page .section--invitation__text {
+      font-family: "Unica One";
+      color: #fee;
+      font-size: 1.25rem;
+      padding-bottom: 32px; }
+      .birthday-page .section--invitation__text--emoji {
+        font-size: 2.5rem; }
+  .birthday-page .section--map {
+    height: 150%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px }
+    @media (min-width: 600px) {
+      .birthday-page .section--map {
+        height: 50%;
+        flex-direction: row; } }
+    @media (min-width: 900px) {
+      .birthday-page .section--map {
+        height: 75%; } }
+    .birthday-page .section--map__map-container {
+      display: flex;
+      flex-direction: column;
+      height: 100%; }
+      .birthday-page .section--map__map-container:not(:last-child) {
+        margin-bottom: 50px; }
+      @media (min-width: 600px) {
+        .birthday-page .section--map__map-container {
+          margin: 0;
+          flex: 1 1 50%;
+          padding: 16px; } }
+    .birthday-page .section--map__map {
+      width: 100%;
+      flex: 1 1 100%;
+      border: 0; }
+    .birthday-page .section--map__title.neon {
+      font-size: 2.5rem;
+      margin-bottom: 16px; }
+      .birthday-page .section--map__title.neon b {
+        font-family: 'Neucha';
+        text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em lightcyan, 0 0 0.5em lightcyan, 0 0 0.1em lightcyan, 0 10px 3px #000; }
+  .birthday-page .footer {
+    margin-top: 80px;
+    padding-bottom: 32px; }
+    .birthday-page .footer .content {
+      font-size: 2rem; }
+      .birthday-page .footer .content b {
+        font-family: "Neucha"; }
+        .birthday-page .footer .content b span {
+          -webkit-animation: blink linear infinite 3s;
+                  animation: blink linear infinite 3s; }
+  .birthday-page .neon {
+    text-align: center; }
+    .birthday-page .neon > b {
+      color: #fee;
+      text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em cyan, 0 0 0.5em cyan, 0 0 0.1em cyan, 0 10px 3px #000; }
+    .birthday-page .neon span {
+      -webkit-animation: blink linear infinite 2s;
+              animation: blink linear infinite 2s; }
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0; }
+
+html, body {
+  height: 100%;
+  width: 100%; }
+</style></head>
+
+<body>
+	<section class="section section--XXV rellax" data-rellax-speed="3" style="transform: translate3d(0px, 0px, 0px);">
+		<h1 class="title neon"><b>X<span>X</span>V</b></h1>
+		<p class="content neon"><b>The <span>b</span>est is yet <br> t<span>o</span> com<span>e</span>.</b></p>
+	</section>
+
+	<section class="section section--invitation">
+		<p class="section--invitation__text">Finalmente cumplo 25 años, un cuarto de siglo, y quiero festejarlo contigo.
+		</p>
+		<p class="section--invitation__text section--invitation__text--emoji">🔥🔥🔥</p>
+		<p class="section--invitation__text">El plan es simple: Nos vemos a las 7:00 P.M. en Rosa Negra, tomamos,
+			comemos,
+			platicamos y, si al final todavía tienes energía, nos vemos en Guilt.</p>
+		<p class="section--invitation__text section--invitation__text--emoji">🍹🍷🍺</p>
+		<p class="section--invitation__text">Porfa confirma tu asistencia para que no tengamos problemas con las
+			reservación.</p>
+	</section>
+
+	<section class="section section--map">
+		<div class="section--map__map-container">
+			<h2 class="section--map__title neon"><b>Ro<span>s</span>a Neg<span>r</span>a</b></h2>
+			<iframe class="section--map__map" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJrwqHxQEC0oURQc3yfAC7XdI&amp;key=AIzaSyA1vGon_tRlD28iJM5AELO9SRnlMnQeogE" allowfullscreen=""></iframe>
+		</div>
+		<div class="section--map__map-container">
+			<h2 class="section--map__title neon"><b><span>G</span>u<span>i</span>lt</b></h2>
+			<iframe class="section--map__map" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJNSPFRsEB0oURIR-kURy0VLc&amp;key=AIzaSyD2shP0FuIT0prtz8ZM6KgwOCWHOtc8428" allowfullscreen=""></iframe>
+		</div>
+	</section>
+
+	<footer class="footer">
+		<p class="content neon"><b>Ahí <span>n</span>os <br> v<span>e</span>mos</b></p>
+	</footer>
+	<script src="/static/dist/main.bundle.js"></script>
+
+
+</body></html>
